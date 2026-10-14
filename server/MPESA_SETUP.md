@@ -8,9 +8,7 @@ M-Pesa details are saved **per business**, inside the app: sign in as the busine
 3. The **shortcode** (Paybill number, or store number for a Till) and the **passkey**.
 4. For a Till (Buy Goods): choose "Till" in Settings and enter the Till number too.
 
-For testing, use the **Sandbox** environment. Sandbox shortcode `174379` and its passkey are on the portal's M-Pesa Express page. No real money moves in the sandbox.
 
-Going live is a separate approval by Safaricom for each business's own Paybill or Till. Production credentials are then entered in the same Settings page, with Environment set to Production.
 
 ## 2. Where Safaricom sends the result (the server owner does this once)
 Safaricom must be able to reach your server, and one address serves all businesses:
